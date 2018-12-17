@@ -1,0 +1,233 @@
+body,h1,h2,h3,h4,h5,h6,p,hr,ul,ol,dl,dd,input,textarea,option,th,td,fieldset,legend{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:#666;}
+body{font-size:14px; }
+img{border:none; display:block;}
+input,a{outline:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+
+.clear:after{content:"."; display:block; clear:both; height:0; visibility:hidden;}
+.clear{zoom:1;}
+/*兼容IE浏览器*/
+.fl{float:left;}
+.fr{float:right;}
+  /*header头部*/
+header{
+    height: 102px;
+}
+.head{
+    width: 975px;
+    height: 102px;
+    margin: 0 auto;
+}
+header .logo{
+    padding-top: 19px;
+    width: 460px;
+    float: left;
+}
+header .fiy{
+    float: left;
+}
+/*section注册内容*/
+section{
+    background: url(../images/1cu98bqa621_1920_520.jpg) no-repeat center center;
+    height: 520px;
+}
+section .section1{
+    width: 975px;
+    height: 520px;
+    margin:0 auto;
+    position: relative;
+}
+.login_box{
+    background: #fff;
+     width: 350px;
+    height: 378px;
+      position: absolute;
+    left: 610px;
+    top: 50px;
+    border:1px solid #eaeaea;
+}
+.hy{
+   width: 350px;
+   height: 52px;
+   border-bottom: 1px solid #dddddd;
+    background: #f8f8f8;
+}
+.huanying{
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    color: #e61436;
+    text-align: center;
+    line-height: 53px;
+    height: 53px;
+    color: #e31436;
+    font-weight: bold
+}
+.ying{
+    float: left;
+    width: 50%;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    line-height: 53px;
+    height: 53px;
+}
+.zhuce{
+    color: #75b8f1;
+}
+.zhuce:hover{
+     text-decoration: underline;
+}
+/*文本框设置*/
+.cont{
+    padding-left: 40px;
+    padding-top:40px; 
+}
+.a{
+    width: 230px;
+    height: 34px;
+    border:1px solid #d5d5d5;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    padding-left: 38px;
+    color: #bdbdbd;
+}
+.pwd{
+    margin-bottom: 0;
+}
+.baoc{
+    width: 230px;
+    height: 17px;
+    font-size: 12px;
+    color: red;
+}
+.huadongtiao img{ 
+    width: 268px;
+    height: 32px;
+    margin-bottom: 16px;
+}
+.yanzhengma{
+    width: 268px;
+    padding-left: 0px;
+}
+.phone{
+    width: 12px;
+    height: 18px;
+    background: url(../images/登录-网易考拉_01_03.jpg);
+    position: absolute;
+    top:102px;
+    left: 52px;
+}
+.suo1{
+    width: 16px;
+    height: 18px;
+    background: url(../images/登录-网易考拉_02_11.jpg);
+    position: absolute;
+    top:256px;
+    left: 50px;
+}
+.huoqu{
+    width: 98px;
+    height: 34px;
+    border:none;
+    background: #eeeeee;
+    position: absolute;
+    left: 211px;
+    top: 193px;
+    border-left: 1px solid #d5d5d5;
+    font-size: 12px;
+}
+.btn{
+    width: 270px;
+    height: 36px;
+    background: #e31436;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 36px;
+    border:none;
+    margin-bottom: 13px;
+}
+#box{
+    position: absolute;
+            width: 15px;
+            height: 15px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            background: url(../images/登录-网易考拉_14.jpg) no-repeat center;
+         top:348px;
+            left:40px;
+        }
+ .zhengce p{
+    position:absolute;
+    width: 220px;
+    height: 20px;
+    font-size: 5px;
+  /*  background: red;*/
+    left:63px;
+    top:348px;
+    color:#b2a5c2;
+ }
+ /*/*footer底部*/
+.footer{
+    width: 1250px;
+    height: 206px;
+   /* background: pink;*/
+  margin:0 auto;
+  margin-top: 70px;
+  }
+.footer1{
+    position: relative;
+    width: 1000px;
+    height: 118px;
+/*    background: red;*/
+   margin: 0 auto;
+}
+.guanggaojieshao{
+    width: 970px;
+    height: 30px;
+    overflow: hidden;
+/*    background: green;*/
+    position:absolute;
+    color: #666666;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.guanggaojieshao1 li{
+      width: 900px;
+    height: 30px;
+    overflow: hidden;
+/*    background: #ccc;*/
+    position:absolute;
+    color:#999999;
+    margin-top: 30px;
+    font-size: 5px;
+    margin-left:50px;
+}
+.guanggaojieshao2 li{ 
+    width: 900px;
+    height: 30px;
+    overflow: hidden;
+    background: #fff;
+    position: absolute;
+    color: #999999;
+        margin-top: 55px;
+    font-size: 5px;
+    margin-left:90px;
+}
+.guanggaojieshao2 img{
+    position: absolute;
+    margin-top:55px;
+    margin-left:63px;
+}
+.db img{
+position: relative;
+ float:left;
+left: 430px;
+top:75px;
+margin:5px;
+height: 30px;
+}
